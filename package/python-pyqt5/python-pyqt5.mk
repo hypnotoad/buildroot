@@ -10,7 +10,7 @@ PYTHON_PYQT5_SITE = https://files.pythonhosted.org/packages/3b/27/fd81188a35f37b
 PYTHON_PYQT5_LICENSE = GPL-3.0
 PYTHON_PYQT5_LICENSE_FILES = LICENSE
 
-PYTHON_PYQT5_DEPENDENCIES = python-sip host-python-sip qt5base
+PYTHON_PYQT5_DEPENDENCIES = python-sip host-python-sip python-pyqt-builder host-python-pyqt-builder qt5base
 PYTHON_PYQT5_MODULES = \
 	QtCore QtGui \
 	$(if $(BR2_PACKAGE_QT5BASE_DBUS),QtDBus) \
